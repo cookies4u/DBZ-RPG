@@ -93,6 +93,7 @@ $(document).ready(function() {
   $("ul").on("click", ".starterList", function() { //referencing an existing element, because class created dynamically
     if (yourCharArr === false) {
       clickedValue = this.value; //getting the value of the item clicked
+      console.log(this);
       
       // li created and added to given ul //
       liImg = $("<li>"); //creating a li in our new list
